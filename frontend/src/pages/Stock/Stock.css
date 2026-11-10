@@ -1,0 +1,143 @@
+.stock-container {
+  margin-left: 260px;
+
+  padding: 35px;
+
+  background: #f5f7fb;
+
+  min-height: 80vh;
+}
+
+.stock-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 25px;
+}
+
+.stock-header h1 {
+  color: #222;
+}
+
+.stock-header p {
+  color: #777;
+}
+
+.add-stock-btn {
+  background: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  display: flex;
+
+  gap: 8px;
+
+  align-items: center;
+}
+
+.stock-card {
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+th {
+  background: #f1f5f9;
+
+  padding: 15px;
+
+  text-align: left;
+}
+
+td {
+  padding: 15px;
+
+  border-bottom: 1px solid #eee;
+}
+
+.available {
+  background: #dcfce7;
+
+  color: #166534;
+
+  padding: 6px 12px;
+
+  border-radius: 20px;
+}
+
+.low {
+  background: #fef9c3;
+
+  color: #854d0e;
+
+  padding: 6px 12px;
+
+  border-radius: 20px;
+}
+
+.out {
+  background: #fee2e2;
+
+  color: #991b1b;
+
+  padding: 6px 12px;
+
+  border-radius: 20px;
+}
+
+.stock-edit-btn {
+  background: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px;
+
+  border-radius: 6px;
+
+  margin-right: 8px;
+
+  cursor: pointer;
+}
+
+.stock-delete-btn {
+  background: #dc2626;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .stock-container {
+    margin-left: 0;
+  }
+}

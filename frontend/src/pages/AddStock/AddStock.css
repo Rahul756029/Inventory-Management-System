@@ -1,0 +1,160 @@
+.add-stock-container {
+
+
+    margin-left: 260px;
+
+    padding: 35px;
+
+    background: #f5f7fb;
+
+    min-height: 80vh;
+
+
+}
+
+
+
+.add-stock-container h1 {
+
+    margin-bottom: 25px;
+
+    color: #222;
+
+}
+
+
+
+
+.add-stock-form {
+
+
+    background: white;
+
+    width: 500px;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+
+}
+
+
+
+
+
+.add-stock-form label {
+
+
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 8px;
+
+    font-weight: 600;
+
+
+}
+
+
+
+
+
+.add-stock-form input,
+.add-stock-form select {
+
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    outline: none;
+
+
+}
+
+
+
+
+
+.add-stock-form input:focus,
+.add-stock-form select:focus {
+
+
+    border-color: #2563eb;
+
+
+}
+
+
+
+
+
+.add-stock-form button {
+
+
+    margin-top: 25px;
+
+    padding: 12px 22px;
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+
+}
+
+
+
+
+.add-stock-form button:hover {
+
+
+    background: #1d4ed8;
+
+
+}
+
+
+
+
+
+@media(max-width:900px) {
+
+
+    .add-stock-container {
+
+        margin-left: 0;
+
+    }
+
+
+
+    .add-stock-form {
+
+        width: 100%;
+
+    }
+
+
+}

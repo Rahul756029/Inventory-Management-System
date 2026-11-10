@@ -1,0 +1,59 @@
+.dashboard-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+
+}
+
+
+.dashboard-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+.card-content h4{
+
+    color:#6B7280;
+
+    font-size:16px;
+
+    font-weight:500;
+
+}
+
+
+.card-content h2{
+
+    margin-top:10px;
+
+    font-size:32px;
+
+    color:#1F2937;
+
+}
+
+
+
+.card-icon{
+
+    font-size:40px;
+
+    color:#2563EB;
+
+}

@@ -1,0 +1,128 @@
+.edit-order{
+
+    min-height:100vh;
+    background:#f4f6f9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+
+}
+
+.edit-card{
+
+    width:700px;
+    background:white;
+    border-radius:12px;
+    padding:35px;
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+
+}
+
+.edit-card h2{
+
+    text-align:center;
+    margin-bottom:30px;
+    color:#1e293b;
+
+}
+
+.form-group{
+
+    display:flex;
+    flex-direction:column;
+    margin-bottom:20px;
+
+}
+
+.form-group label{
+
+    margin-bottom:8px;
+    font-weight:600;
+    color:#334155;
+
+}
+
+.form-group input,
+.form-group select{
+
+    padding:12px;
+    border:1px solid #d1d5db;
+    border-radius:8px;
+    font-size:15px;
+    outline:none;
+
+}
+
+.form-group input:focus,
+.form-group select:focus{
+
+    border-color:#2563eb;
+
+}
+
+.button-group{
+
+    display:flex;
+    justify-content:flex-end;
+    gap:15px;
+    margin-top:25px;
+
+}
+
+.cancel-btn{
+
+    background:#64748b;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+
+.cancel-btn:hover{
+
+    background:#475569;
+
+}
+
+.update-btn{
+
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+
+.update-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+@media(max-width:768px){
+
+.edit-card{
+
+    width:100%;
+
+}
+
+.button-group{
+
+    flex-direction:column;
+
+}
+
+.cancel-btn,
+.update-btn{
+
+    width:100%;
+
+}
+
+}
